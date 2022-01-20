@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="navBar">
+    <div class="brand">brands<span class="bri">Bybri</span></div>
+    <ul class="topNav" id="navBar-toggle">
+      <li><a class="nav-link" href="">Home</a></li>
+      <li><a class="nav-link" href="#">Products</a></li>
+      <li><a class="nav-link" href="#">About Us</a></li>
+      <li><a class="nav-link" href="#">Contact</a></li>
+      <li class="dropDownLink"><a onclick="toggleDropdown()" href="javascript:void(0);">&#9776</a></li>
+    </ul>
+  </nav>
+
+  <!-- SECTION 1 -->
+  <header>
+    <div class="headershot-wrapper">
+      <img class="headerShot" src="assets/128815261_134627585109731_555300142062835234_n.png" alt="shop image">
+      <h1>Shop with us!</h1>
+    </div>
+  </header>
+
+  <!-- SECTION 2 -->
+
+  <section class="services">
+    <div class="container">
+      <div class="media-object">
+        <div class="icon-left">
+          <img class="order-image" src="assets/checklist.png" alt="order image">
+        </div>
+        <div class="text-wrapper-right">
+          <h3 class="text-wrapper">Where to buy</h3>
+          <div class="text-info">
+            From the list of online stores, we have selected the most trusted online stores in Germany, Spain, England,
+            Poland, France, Italy, Latvia and the Netherlands.
+          </div>
+        </div>
+      </div>
+      <div class="media-object">
+        <div class="icon-right">
+          <img class="order-image" src="assets/online-store.png" alt="order image">
+        </div>
+        <div class="text-wrapper-left">
+          <h3 class="text-wrapper">How to order</h3>
+          <div class="text-info">
+            From the list of online stores, we have selected the most trusted online stores in Germany, Spain, England,
+            Poland, France, Italy, Latvia and the Netherlands.
+          </div>
+        </div>
+      </div>
+      <div class="media-object">
+        <div class="icon-left">
+          <img class="order-image" src="assets/logistics-delievry.png" alt="order image">
+        </div>
+        <div class="text-wrapper-right">
+          <h3 class="text-wrapper">How to track</h3>
+          <div class="text-info">
+            From the list of online stores, we have selected the most trusted online stores in Germany, Spain, England,
+            Poland, France, Italy, Latvia and the Netherlands.
+          </div>
+        </div>
+      </div>
+      <div class="quote-text-wrapper">
+        <button class="quote-btn">Get a quote</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h1 class="header">Available items</h1>
+      </div>
+      <div class="portfolio-wrapper">
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Shoes</h4>
+          <div class="portfolio-text">
+            From the list of online stores, we have selected the most trusted online stores in Germany, Spain, England,
+            Poland, France, Italy, Latvia and the Netherlands.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Shoes</h4>
+          <div class="portfolio-text">
+            From the list of online stores, we have selected the most trusted online stores in Germany, Spain, England,
+            Poland, France, Italy, Latvia and the Netherlands.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Shoes</h4>
+          <div class="portfolio-text">
+            From the list of online stores, we have selected the most trusted online stores in Germany, Spain, England,
+            Poland, France, Italy, Latvia and the Netherlands.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Shoes</h4>
+          <div class="portfolio-text">
+            From the list of online stores, we have selected the most trusted online stores in Germany, Spain, England,
+            Poland, France, Italy, Latvia and the Netherlands.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Shoes</h4>
+          <div class="portfolio-text">
+            From the list of online stores, we have selected the most trusted online stores in Germany, Spain, England,
+            Poland, France, Italy, Latvia and the Netherlands.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Shoes</h4>
+          <div class="portfolio-text">
+            From the list of online stores, we have selected the most trusted online stores in Germany, Spain, England,
+            Poland, France, Italy, Latvia and the Netherlands.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Shoes</h4>
+          <div class="portfolio-text">
+            From the list of online stores, we have selected the most trusted online stores in Germany, Spain, England,
+            Poland, France, Italy, Latvia and the Netherlands.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Shoes</h4>
+          <div class="portfolio-text">
+            From the list of online stores, we have selected the most trusted online stores in Germany, Spain, England,
+            Poland, France, Italy, Latvia and the Netherlands.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-container">
+    <div class="section-header">
+      <h1>Drop us a line</h1>
+    </div>
+    <form action="">
+      <label for="email">*email</label>
+      <div class="form-group">
+        <input class="form-control" type="email" id="email">
+      </div>
+      <label for="name">*name</label>
+      <div class="form-group">
+        <input class="form-control" type="text" id="name">
+      </div>
+      <label for="message">*message</label>
+      <div class="form-group">
+        <textarea class="form-control" id="message" rows="6"></textarea>
+      </div>
+      <div class="submit-btn-wrapper">
+        <button class="quote-btn">Submit</button>
+      </div>
+    </form>
+  </section>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
